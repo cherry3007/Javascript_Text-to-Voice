@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightskyblue;
+}
+.container{
+    background-color: blueviolet;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+.container h1{
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 165px;
+}
+#textInput{
+    width: 350px;
+    height: 250px;
+    margin: 20px 70px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+#voiceSelect{
+    width: 350px;
+    height: 30px;
+    margin: 0 70px;
+    border-radius: 8px;
+}
+#speakBtn{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: aquamarine;
+    color: grey;
+    margin-top: 25px;
+    margin-left: 180px;
+}
